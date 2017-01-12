@@ -12,7 +12,7 @@ setup(name='pypass',
           'docopt',
       ],
       entry_points = {
-        'console_scripts': ['pypass=pypass.cli:main',
-                            'pypass-ping=pypass.cli:pong'],
+        'console_scripts': ['pypass=pypass:main',
+                            'pypass-ping=pypass:pong'],
       },
       zip_safe=False)
